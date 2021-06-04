@@ -3,7 +3,7 @@
  * the diagrams to svg code.
  */
 // import { decode } from 'he';
-import decode from 'entity-decode/browser';
+import decode from './browser';
 import { log } from './logger';
 import mermaidAPI from './mermaidAPI';
 import utils from './utils';
